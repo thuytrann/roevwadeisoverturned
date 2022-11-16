@@ -29,8 +29,7 @@ var typewriter = new Typewriter(intro, {
   loop: false
 });
 
-if (restore){
-restore.addEventListener('click', () => {
+function introani(){
 typewriter.callFunction(() => {
       document.getElementById('intro-skip').addEventListener('click', () => {
         introcontainer.style.opacity ="0";
@@ -107,9 +106,7 @@ typewriter.callFunction(() => {
       introcontainer.style.zIndex ="-1";
     });
     
-}
 
-);
 }
 
 
@@ -132,12 +129,12 @@ function checkSession(){
  
  
     } else {
-      setCookie("visited", "yes", 365);
+      setCookie("no");
       
       introcontainer.style.opacity ="1";
       introcontainer.style.visibility ="visible";
-      introcontainer.style.zIndex ="5";
- 
+      introcontainer.style.zIndex ="51";
+      introani();
     }
    }
    
