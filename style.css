@@ -611,9 +611,9 @@ clipPath {
 }
 
 .st0{fill:none;stroke:#A0DC00;stroke-width:2;stroke-miterlimit:10;}
-         .st1{opacity:0.89;fill:#A0DC00;enable-background:new    ;}
-         .st2{font-family:'Inter-Bold';}
-         .st3{font-size:16px;}
+.st1{fill:#A0DC00;enable-background:new    ;}
+.st2{font-family: Inter;}
+.st3{font-size:16px;}
 /* RESET
 ========================================== */
 *, *:before, *:after {
@@ -624,7 +624,7 @@ clipPath {
 
 body {
   background: #2B3B00;
-  font-family: "Roboto Condensed", sans-serif;
+  
 }
 
 button {
